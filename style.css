@@ -1,0 +1,98 @@
+.conteiner{
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 120px;
+    border-radius: 10px;
+}
+.item{
+    padding: 10px;
+    /* border: 1px solid black; */
+    text-align: center;
+    
+}
+h3{margin: 0;}
+h1{margin: 20px 0 0 0;}
+h4{
+    margin: 0;
+}
+h2{margin: 0;}
+.qwe{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(128, 128, 128, 0.313);
+    border: 1px solid rgba(128, 128, 128, 0.466)
+}
+.item1{
+    background-color: rgb(178, 178, 223);
+}
+.item2{
+    background-color: rgb(137, 137, 202);
+}
+.item3{background-color: rgb(101, 101, 209);}
+.item4{background-color: rgb(57, 57, 195);}
+.item5{background-color: rgb(25, 25, 207);}
+.item6{background-color: rgba(128, 128, 128, 0.261);}
+.item7{background-color: rgba(128, 128, 128, 0.117);}
+.conteiner2{
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+    background-color: rgba(128, 128, 128, 0.251);
+}
+.dws-menu{
+    margin: 0;
+    padding: 0;
+
+}
+ul li{
+   
+    list-style: none;
+}
+.dws-menu > ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.dws-menu > ul li a{
+   
+    display: block;
+    background-color: forestgreen;
+    width: 123px;
+    height: 30px;
+color: aliceblue;
+text-decoration: none;
+text-align: center;
+border: 1px solid darkgreen;
+}
+.dws-menu > ul li{
+    
+    position: relative;
+    
+}
+.dws-menu li a:hover{
+    background-color: darkgreen;
+   
+}
+.dws-menu li ul{
+    position: absolute;
+    display:none
+}
+.dws-menu li> ul li ul{
+    
+    position: absolute;
+    right: -120px;
+    top: 0;
+}
+.dws-menu li:hover >ul{
+    display: block;
+    
+}
+.dws-menu> ul li ul{
+    padding: 0;
+}
+a{
+    padding: 12px 0 0 0;
+}
+
